@@ -187,7 +187,7 @@ function Profile() {
             </motion.div>
           </motion.div>
         ) : (
-        <Navigate to="/home"/>
+        <Navigate to="/"/>
         )}
       </AnimatePresence>
     </div>
