@@ -21,7 +21,7 @@ function AddTodo() {
   const [today, setToday] = useState("")
   const [isActive, setIsActive] = useState(false);
   const handleDayToggle = (day) => {
-    e.stopPropagation();
+    // e.stopPropagation();
     if(day == "Today" || day == "Tomorrow"){
       setToday(today === day ? "" : day); // dekh pehle manle day me today agya or campre kiya to today state me to kuch hai nhi to wo day ko return krdega fhir agli bar jab today pr click kiya fhir se aya is bar  today state me save hai ot wo "" hojaega
     }else{
