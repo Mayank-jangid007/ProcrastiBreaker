@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { AddTodo } from './index'
-import { UseApp } from '../../../Redux-Todo/src/App'
+import { UseApp } from "../../src/App"
+// import { UseApp } from '../../../Redux-Todo/src/App'
 import { useSelector } from 'react-redux'
 import { useDispatch } from 'react-redux'
 import { deleteTodo } from "../Features/TodoSlice";
