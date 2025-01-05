@@ -90,7 +90,7 @@ function Home() {
       </h1>
 
       {/* Profile section */}
-      <div className="absolute top-6 right-6 z-20" onClick={() => userData.isAuthenticated ? navigate('/home') : navigate('profile')}>
+      <div className="absolute top-6 right-6 z-20" onClick={() => userData.isAuthenticated ? navigate('/') : navigate('profile')}>
         <div onClick={() => userData.isAuthenticated ? setShowLogOut(!showLogOut) : navigate('profile')} className="h-14 w-14 ring-4 ring-orange-400/30 rounded-full overflow-hidden hover:scale-105 transition-transform duration-300">
           <img
             src="https://gratisography.com/wp-content/uploads/2024/03/gratisography-vr-glasses-800x525.jpg"
