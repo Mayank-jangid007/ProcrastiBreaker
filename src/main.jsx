@@ -72,7 +72,11 @@ const router = createBrowserRouter([
       }
     ]
   }
-])
+],
+{
+  basename: "/ProcrastiBreaker", // Add this line
+}
+)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
