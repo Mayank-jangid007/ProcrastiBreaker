@@ -27,6 +27,7 @@ function App() {
           <ErrorBoundary>
             <NavBar />
           </ErrorBoundary>
+          
           <ErrorBoundary>
             <AddBtn Click={handleButtnClick} />
           </ErrorBoundary>
@@ -34,7 +35,6 @@ function App() {
           <ErrorBoundary>
           </ErrorBoundary>
         </AppContext.Provider>
-
       </div>
     </div>
   );

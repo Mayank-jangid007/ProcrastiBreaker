@@ -23,7 +23,7 @@ function Home() {
   const userTodo = todo.filter((item) => item.userId === userData.email) 
 
   const navigate = useNavigate()
-  const GoToSubPage = (data, id) => navigate('/subTask', { state: { data: data, id: id } }); 
+  const GoToSubPage = (data, id) => navigate('/subTask', { state: { data: data, id: id} }); 
   const GoEditPage = (data, id) => navigate('todoEdit', { state: { data: data, id: id } });
 
   // Delete-Todo-Section
